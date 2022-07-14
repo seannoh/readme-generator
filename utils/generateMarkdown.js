@@ -1,3 +1,5 @@
+const licenses = require("../assets/licenses");
+
 // returns link to correct license badge
 function renderLicenseBadge(license) {
   switch(license){
@@ -18,12 +20,53 @@ function renderLicenseBadge(license) {
 
 // returns link to license section
 function renderLicenseLink(license) {
-  return "stub";
+  return (license === "No License") ? "" : "* [License](#license)";
 }
 
 // returns the text for the correct license
-function renderLicenseSection(license) {
-  return "stub";
+function renderLicenseSection(data) {
+  switch(data.license){
+    case "MIT License":
+      return `<details>
+  <summary><b>MIT License</b></summary>
+
+\`\`\`
+${licenses.mit(data.username)}
+\`\`\`
+      
+</details>`;
+    case "Apache License 2.0":
+      return `<details>
+  <summary><b>Apache License 2.0</b></summary>
+
+\`\`\`
+${licenses.apache(data.username)}
+\`\`\`
+      
+</details>`;
+    case "GNU GPLv3":
+      return `<details>
+  <summary><b>GNUGPLv3</b></summary>
+
+\`\`\`
+${licenses.gnu(data.username)}
+\`\`\`
+      
+</details>`;
+    case "ISC License":
+      return `<details>
+  <summary><b>ISC License</b></summary>
+
+\`\`\`
+${licenses.isc(data.username)}
+\`\`\`
+      
+</details>`;
+    case "No License":
+      return "";
+    default:
+      return "";
+  }
 }
 
 // generates markdown for the README
@@ -56,7 +99,7 @@ ${data.usage}
 ## Credits
 ${data.credits}
 
-${renderLicenseSection(data.license)}
+${renderLicenseSection(data)}
 
 ## Contributing
 ${data.contributing}
