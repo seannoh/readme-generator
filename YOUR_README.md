@@ -1,9 +1,9 @@
-# 
+# Readme Generator
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green)](#license)
 
 ## Description 
-
+A Node.js command-line application that dynamically generates a professional README.md file using user input.
 
 
 
@@ -18,13 +18,13 @@
 
 
 ## Installation
-
+Upload all files or fork from the repository to your server. Your server must have Node.js installed. Once installed, run `npm -i` from the root directory to install all required dependencies for this app.
 
 ## Usage 
-
+From the root directory, run `node index.js` on the command line. Follow prompts to fill in information for your readme file. Once complete, the application will generate a new file, "YOUR_README.md", in the root.
 
 ## Credits
-
+This application was built with the support of the resources and staff of the UCB Full Stack Full Time Coding Bootcamp Summer 2022. 
 
 ## License
 <details>
@@ -33,7 +33,7 @@
 ```
 MIT License
 
-Copyright (c) 2022 
+Copyright (c) 2022 seannoh
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -57,12 +57,12 @@ SOFTWARE.
 </details>
 
 ## Contributing
-
+This project isn't currently acccepting contributions.
 
 ## Tests
 
 
-
-
-
+## Questions
+- View my Github [profile](https://github.com/seannoh)
+- Contact me at my [email](https://github.com/seannoh@ucsb.edu)
 

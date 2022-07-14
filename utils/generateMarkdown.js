@@ -112,8 +112,8 @@ ${data.contributing}
 ${data.tests}
 
 ${(data.username || data.email) ? "## Questions" : ""}
-${(data.username) ? `View my Github [profile](https://github.com/${data.username}`: ""}
-${(data.email) ? `Contact me at my [email](https://github.com/${data.email}`: ""}
+${(data.username) ? `- View my Github [profile](https://github.com/${data.username})`: ""}
+${(data.email) ? `- Contact me at my [email](https://github.com/${data.email})`: ""}
 
 `;
 }
