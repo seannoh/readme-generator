@@ -1,10 +1,9 @@
+# 
 
-# Cool Project
-
-undefined
+[![MIT License](https://img.shields.io/badge/License-MIT-green)](#license)
 
 ## Description 
-undefined
+
 
 
 
@@ -13,27 +12,27 @@ undefined
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
-undefined
+stub
 * [Contributing](#contributing)
 * [Tests](#tests)
 
 
 ## Installation
-undefined
+
 
 ## Usage 
-undefined
+
 
 ## Credits
-undefined
 
-undefined
+
+stub
 
 ## Contributing
-undefined
+
 
 ## Tests
-undefined
+
 
 
 

@@ -47,6 +47,11 @@ const questions = [
     message: "Please enter contribution guidelines:"
   },
   {
+    name: "tests",
+    type: "input",
+    message: "Please enter test guidelines:"
+  },
+  {
     name: "username",
     type: "input",
     message: "Please enter your Github username:"

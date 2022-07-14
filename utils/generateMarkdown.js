@@ -1,16 +1,26 @@
 // returns link to correct license badge
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  switch(license){
+    case "MIT License":
+      return "[![MIT License](https://img.shields.io/badge/License-MIT-green)](#license)";
+    default:
+      return "";
+  }
+}
 
 // returns link to license section
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  return "stub";
+}
 
 // returns the text for the correct license
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  return "stub";
+}
 
 // generates markdown for the README
 function generateMarkdown(data) {
-  return `
-# ${data.title}
+  return `# ${data.title}
 
 ${renderLicenseBadge(data.license)}
 
