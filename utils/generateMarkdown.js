@@ -15,10 +15,9 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.license)}
 
 ## Description 
-
 ${data.description}
 
-${data.deployedLink ? "Deployed Link: " + data.deployedLink : ""}
+${data.deployedLink ? `Deployed Link: ${data.deployedLink}` : ""}
 
 ## Table of Contents
 
@@ -31,27 +30,25 @@ ${renderLicenseLink(data.license)}
 
 
 ## Installation
-
 ${data.installation}
 
 ## Usage 
-
 ${data.usage}
 
 ## Credits
-
 ${data.credits}
 
 ${renderLicenseSection(data.license)}
 
 ## Contributing
-
 ${data.contributing}
 
 ## Tests
-
 ${data.tests}
 
+${(data.username || data.email) ? "## Questions" : ""}
+${(data.username) ? `View my Github [profile](https://github.com/${data.username}`: ""}
+${(data.email) ? `Contact me at my [email](https://github.com/${data.email}`: ""}
 
 `;
 }
