@@ -6,10 +6,10 @@ A Node.js command-line application that dynamically generates a professional REA
 
 ## Description 
 
-This application
+This application generates a readme file based on user input. The user is prompted with several questions to fill the content of the readme. This app is built using JavaScript running in the Node.js environment. The inquirer package is used to handle the command-line interface
 
 ## Technologies Used
-- Javascript
+- JavaScript
 - [Node.js](https://nodejs.org/)
 - [Inquirer.js](https://www.npmjs.com/package/inquirer)
 
