@@ -27,7 +27,8 @@ function renderLicenseLink(license) {
 function renderLicenseSection(data) {
   switch(data.license){
     case "MIT License":
-      return `<details>
+      return `## License
+<details>
   <summary><b>MIT License</b></summary>
 
 \`\`\`
@@ -36,7 +37,8 @@ ${licenses.mit(data.username)}
       
 </details>`;
     case "Apache License 2.0":
-      return `<details>
+      return `## License
+<details>
   <summary><b>Apache License 2.0</b></summary>
 
 \`\`\`
@@ -45,7 +47,8 @@ ${licenses.apache(data.username)}
       
 </details>`;
     case "GNU GPLv3":
-      return `<details>
+      return `## License
+<details>
   <summary><b>GNUGPLv3</b></summary>
 
 \`\`\`
@@ -54,7 +57,8 @@ ${licenses.gnu(data.username)}
       
 </details>`;
     case "ISC License":
-      return `<details>
+      return `## License
+<details>
   <summary><b>ISC License</b></summary>
 
 \`\`\`

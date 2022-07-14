@@ -26,6 +26,7 @@
 ## Credits
 
 
+## License
 <details>
   <summary><b>MIT License</b></summary>
 
