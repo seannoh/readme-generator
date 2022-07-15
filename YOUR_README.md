@@ -1,9 +1,9 @@
-# Readme Generator
+# Epic Project
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green)](#license)
+[![ISC License](https://img.shields.io/badge/License-ISC-blue)](#license)
 
 ## Description 
-A Node.js command-line application that dynamically generates a professional README.md file using user input.
+This is my epic project
 
 
 
@@ -18,51 +18,45 @@ A Node.js command-line application that dynamically generates a professional REA
 
 
 ## Installation
-Upload all files or fork from the repository to your server. Your server must have Node.js installed. Once installed, run `npm -i` from the root directory to install all required dependencies for this app.
+Download from github
 
 ## Usage 
-From the root directory, run `node index.js` on the command line. Follow prompts to fill in information for your readme file. Once complete, the application will generate a new file, "YOUR_README.md", in the root.
+Run on nodejs
 
 ## Credits
-This application was built with the support of the resources and staff of the UCB Full Stack Full Time Coding Bootcamp Summer 2022. 
+Sean
 
 ## License
 <details>
-  <summary><b>MIT License</b></summary>
+  <summary><b>ISC License</b></summary>
 
 ```
-MIT License
+ISC License
 
 Copyright (c) 2022 seannoh
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Permission to use, copy, modify, and/or distribute this software for any
+purpose with or without fee is hereby granted, provided that the above
+copyright notice and this permission notice appear in all copies.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES WITH
+REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY SPECIAL, DIRECT,
+INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES WHATSOEVER RESULTING FROM
+LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR
+OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
+PERFORMANCE OF THIS SOFTWARE.
 ```
       
 </details>
 
 ## Contributing
-This project isn't currently acccepting contributions.
+No contributions!
 
 ## Tests
-
+Tests!
 
 ## Questions
 - View my Github [profile](https://github.com/seannoh)
-- Contact me at my [email](https://github.com/seannoh@ucsb.edu)
+- Contact me at my [email](https://github.com/seanoh@ucsb.edu)
 

@@ -30,6 +30,8 @@ From the root directory, run `node index.js` on the command line. Follow prompts
 
 ![Preview](assets/preview.png)
 
+[Walkthrough Video](https://drive.google.com/file/d/1dcdh23o7_3sz8qleZj4DmB9LBarAvFv7/view?usp=sharing)
+
 ## Credits
 This application was built with the support of the resources and staff of the UCB Full Stack Full Time Coding Bootcamp Summer 2022. 
 
